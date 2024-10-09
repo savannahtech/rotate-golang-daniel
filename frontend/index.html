@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileChangesTracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>FileChangesTracker Control</h1>
+    <button id="startButton">Start Service</button>
+    <button id="stopButton" disabled>Stop Service</button>
+    <button id="fetchLogsButton" disabled>Fetch Logs</button>
+    <p id="status"></p>
+    <hr />
+    <table id="logsTable" border="1" style="margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Details</th>
+                <th>Log Time</th>
+            </tr>
+        </thead>
+        <tbody id="logsTableBody">
+        </tbody>
+    </table>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

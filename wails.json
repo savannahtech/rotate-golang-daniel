@@ -1,0 +1,9 @@
+{
+    "name": "filechangestracker",
+    "frontend:dir": "./frontend",
+    "frontend:install": "npm install",
+    "frontend:build": "npm run build",
+    "output:dir": "./build",
+    "frontend:dev:watcher": "npm run dev",
+    "frontend:dev:serverUrl": "auto"
+}

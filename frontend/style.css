@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 20px;
+    color: green;
+}
+
+/* Make the table take the full width of the screen */
+#logsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table rows and cells */
+#logsTable th, #logsTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Make the Details column take up most of the space */
+#logsTable th:nth-child(2), #logsTable td:nth-child(2) {
+    width: 60%;  /* Adjust this to control the space for the "Details" column */
+}
+
+/* Make sure the table header stays bold and well-spaced */
+#logsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

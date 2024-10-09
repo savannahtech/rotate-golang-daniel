@@ -1,0 +1,6 @@
+directory: '/Users/{USERNAME}/Downloads/'
+check_frequency: 1 # in seconds
+reporting_api: 'http://api.external.com/v1/report'
+http_port: '9000'
+socket_path: '/var/osquery/osquery.em'
+mongo_uri: 'mongodb://user:password@localhost:27017'
